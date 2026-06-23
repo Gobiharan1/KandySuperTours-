@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D2N Kandy &amp; Sigiriya Tour – Kandy Super Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="./tours.css"/>
+  <link rel="stylesheet" href="./singletour.css"/>
+  <link rel="stylesheet" href="./roundtour.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav scrolled" id="navbar">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo">Kandy Super Tours</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Day Tours</a></li>
+        <li><a href="tours.html#round" class="active">Round Tours</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="https://wa.me/94776024633" class="btn-whatsapp" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="rt-hero">
+    <div class="rt-hero-bg">
+      <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=1600&auto=format&fit=crop&q=80" alt="Sigiriya Rock" class="rt-hero-img"/>
+      <div class="rt-hero-overlay"></div>
+    </div>
+    <div class="rt-hero-content container">
+      <span class="rt-badge">3 Days &amp; 2 Nights</span>
+      <h1 class="rt-hero-title">Perfect Short Sri Lanka Tour –<br>Kandy Culture &amp; Sigiriya Adventure</h1>
+      <p class="rt-hero-sub">Explore the cultural heart of Kandy and the majestic heights of Sigiriya in this expertly crafted 3-day itinerary.</p>
+      <div class="rt-hero-btns">
+        <a href="#rt-booking" class="btn-hero-solid">Book This Tour</a>
+        <a href="https://wa.me/94776024633" class="btn-hero-ghost" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+    <div class="hero-wave"><svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,50 C360,100 720,0 1080,50 C1260,75 1380,30 1440,50 L1440,100 L0,100 Z" fill="#ffffff"/></svg></div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="rt-intro section">
+    <div class="container rt-intro-grid">
+      <div class="rt-intro-text" data-aos>
+        <h2>Your Premium Sri Lankan Escape Starts Here</h2>
+        <p>Ideal for international travelers with limited time, this well-planned short round trip departs directly from Bandaranaike International Airport or your hotel in Colombo.</p>
+        <p>Over 3 days you'll experience Kandy's city walking tour with its religious shrines, and luscious landscapes that tell the wonders of the "Pearl of the Indian Ocean". With Kandy Super Tours you skip the logistics and jump straight into the adventure.</p>
+        <div class="rt-intro-badges">
+          <div class="rt-badge-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Airport Pickup/Drop
+          </div>
+          <div class="rt-badge-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            20+ Years Experience
+          </div>
+        </div>
+      </div>
+      <div class="rt-intro-img" data-aos>
+        <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=600&auto=format&fit=crop&q=80" alt="Sri Lanka tea forest"/>
+        <div class="rt-intro-stat">
+          <span class="rt-stat-num">3</span>
+          <span class="rt-stat-label">Days</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY HIGHLIGHTS -->
+  <section class="rt-highlights section">
+    <div class="container">
+      <h2 class="center">Journey Highlights</h2>
+      <p class="center tp-section-sub">The absolute best of Sri Lanka's central cultural triangle in one compact itinerary.</p>
+      <div class="rt-hl-grid">
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><span>Airport Pickup/Drop</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div><span>Temple of the Tooth</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/></svg></div><span>Botanical Gardens</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div><span>Kandy Lake</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><span>Sigiriya Lion Rock</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div><span>Noruwella Cave Temples</span></div>
+        <div class="rt-hl-item" data-aos><div class="rt-hl-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div><span>Spice Garden</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ITINERARY DETAILS -->
+  <section class="rt-itinerary section">
+    <div class="container">
+      <h2 class="center">Itinerary Details</h2>
+      <div class="rt-days">
+        <div class="rt-day" data-aos>
+          <div class="rt-day-text">
+            <div class="rt-day-num">Day 1: Arrival &amp; The Royal City</div>
+            <p>Arrival in Kandy / City hotel. Kandy hotel city. Arrival to to your hotel in Colombo. Start at Sri Lanka's holiest temple, the Royal Botanical Gardens. Stop for lunch. Followed by a stopover at Kandy Lake to unwind with the Kandy Lake Kandy. City walk.</p>
+          </div>
+          <div class="rt-day-img">
+            <img src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=400&auto=format&fit=crop&q=80" alt="Kandy Royal City"/>
+          </div>
+        </div>
+        <div class="rt-day reverse" data-aos>
+          <div class="rt-day-img">
+            <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=400&auto=format&fit=crop&q=80" alt="Dambulla cave temple"/>
+          </div>
+          <div class="rt-day-text">
+            <div class="rt-day-num">Day 2: Botanical Wonders &amp; Golden Temples</div>
+            <p>Botanical Gardens. Dambulla Cave Temple / Sacred Temple / Dambulla cave temple. Arriving until the Kandy Gardens, Journey north to the famous Cave Temples, a UNESCO site with 2000-year-old murals. Nearby to the cave of Sigiriya for a scenic evening.</p>
+          </div>
+        </div>
+        <div class="rt-day" data-aos>
+          <div class="rt-day-text">
+            <div class="rt-day-num">Day 3: The Lion's Fortress &amp; Return</div>
+            <p>Sigiriya / Spice Garden / Kandy / Return. Explore a UNESCO site: Sigiriya Lion Rock Fortress spanning 1200 metres! The Sigiriya Lion Rock Fortress is one of Sri Lanka's greatest monuments! From Sigiriya onwards to Colombo or Colombo for your departure.</p>
+          </div>
+          <div class="rt-day-img">
+            <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&auto=format&fit=crop&q=80" alt="Sigiriya Lion Rock"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INCLUDED / EXCLUDED -->
+  <section class="rt-incl section">
+    <div class="container rt-incl-grid">
+      <div class="rt-included-card" data-aos>
+        <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> What's Included</h3>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2e7850" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Private A/C vehicle with experienced driver-guide</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2e7850" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Accommodation (2 Nights Kandy)</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2e7850" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Airport Pick-up and Drop-Off</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2e7850" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Expert English Guide</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2e7850" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Telephone first day accommodation</li>
+        </ul>
+      </div>
+      <div class="rt-excluded-card" data-aos>
+        <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> What's Excluded</h3>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c83c3c" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Entrance Tickets to sites</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c83c3c" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Lunch and Meals</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c83c3c" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Personal expenses and tips</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c83c3c" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Travel Insurance</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c83c3c" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Any activities not mentioned in itinerary</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOUR INVESTMENT -->
+  <section class="rt-invest section" id="rt-booking">
+    <div class="container">
+      <div class="rt-invest-card" data-aos>
+        <div class="rt-invest-label">Unbeatable Value</div>
+        <h2>Tour Investment</h2>
+        <div class="rt-invest-price">Starting from <strong>$235</strong> <span>per person</span></div>
+        <div class="rt-invest-tags">
+          <span>2 Nts Accommodation</span>
+          <span>Private Dedicated vehicle</span>
+          <span>Expert English Guide</span>
+        </div>
+        <p class="rt-invest-note">Prices may slightly depend on group size and preferred hotel levels. Contact us for a personalised quote for your group.</p>
+        <a href="contact.html" class="btn-hero-solid">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE -->
+  <section class="rt-why section">
+    <div class="container">
+      <h2 class="center">Why Choose Kandy Super Tours?</h2>
+      <div class="rt-why-grid">
+        <div class="rt-why-left" data-aos>
+          <div class="rt-stat-row">
+            <div class="rt-stat"><span class="rt-stat-big">20+</span><span>Years Experience</span></div>
+            <div class="rt-stat"><span class="rt-stat-big">10k+</span><span>Happy Tourists</span></div>
+          </div>
+          <div class="rt-stat-row">
+            <div class="rt-stat"><span class="rt-stat-big">4.9/5</span><span>Google Rating</span></div>
+            <div class="rt-stat"><span class="rt-stat-big">24/7</span><span>Driver Support</span></div>
+          </div>
+        </div>
+        <div class="rt-why-right" data-aos>
+          <div class="rt-why-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div><h4>Uncompromised Safety</h4><p>Vetted drivers with clean records and deep knowledge of local road conditions.</p></div>
+          </div>
+          <div class="rt-why-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            <div><h4>Local Knowledge</h4><p>We go off the beaten path and find the best local spots.</p></div>
+          </div>
+          <div class="rt-why-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            <div><h4>Responsible Tourism</h4><p>We support local communities and eco-friendly practices across all our routes.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING CTA -->
+  <section class="rt-book-cta section">
+    <div class="container rt-book-cta-inner">
+      <h2>Ready to Book Your Adventure?</h2>
+      <p>Our team is standing by to help you customize this itinerary or book it exactly as is. Let's make your Sri Lankan dreams a reality.</p>
+      <div class="rt-book-contacts">
+        <a href="tel:+94775924633" class="rt-book-contact">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <div><span>WhatsApp Us</span><strong>+94 77 592 4633</strong></div>
+        </a>
+        <a href="mailto:info@kandysupertours.lk" class="rt-book-contact">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+          <div><span>Email Anytime</span><strong>info@srilankatourtaxi.com</strong></div>
+        </a>
+      </div>
+      <a href="https://wa.me/94776024633" class="btn-hero-solid" target="_blank">Confirm My Booking Now</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo">Kandy Super Tours</span>
+        <p>Discover the most of the island of Sri Lanka. Authentic, safe, and professional Sri Lanka travel specialists. Experience the island like a local with the help of a KST.</p>
+        <div class="social-links">
+          <a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="tours.html">Day Tours</a></li><li><a href="tours.html#round">Round Tours</a></li><li><a href="transfers.html">Transfers</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul class="footer-contact"><li>379/1 Ampitiya Road,<br>Kandy, Sri Lanka</li><li><a href="tel:+94775924633">+94 77 592 4633</a></li></ul></div>
+      <div class="footer-col"><h4>Follow Us</h4><div class="social-links" style="margin-top:0"><a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></a></div></div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 Kandy Super Tours. All rights reserved.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

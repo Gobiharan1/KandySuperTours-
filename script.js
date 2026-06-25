@@ -65,9 +65,11 @@ const navAnchors = document.querySelectorAll('.nav-links a');
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      navAnchors.forEach(a => a.classList.remove('active'));
       const match = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
-      if (match) match.classList.add('active');
+      if (match) {
+        navAnchors.forEach(a => a.classList.remove('active'));
+        match.classList.add('active');
+      }
     }
   });
 }, { rootMargin: '-40% 0px -55% 0px' });

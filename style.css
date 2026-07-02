@@ -80,7 +80,7 @@ body {
 .nav-links a:hover, .nav-links a.active { color: var(--gold-light); }
 .btn-whatsapp {
   display: flex; align-items: center; gap: 7px;
-  background: var(--gold);
+  background:rgb(1, 158, 1);
   color: var(--white);
   border-radius: var(--radius-btn);
   padding: 8px 18px;
@@ -90,7 +90,7 @@ body {
   transition: background var(--transition), transform var(--transition);
   flex-shrink: 0;
 }
-.btn-whatsapp:hover { background: var(--gold-light); transform: translateY(-1px); }
+.btn-whatsapp:hover { background: rgb(1, 158, 5); transform: translateY(-1px); }
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
 .hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 4px; transition: var(--transition); }
 
